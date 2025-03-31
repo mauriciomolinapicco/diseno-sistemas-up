@@ -7,8 +7,8 @@ public class Prueba {
         // Esto es porque la llamada compite con se establecion en tiempo de compilacion
         // JAVA no soporta el envio multiple de mensajes o multiple dispatch, solo Single Dispatch
     
-        Auto a = new Auto();
-        Moto v = new Moto();
+        a = new Auto();
+        v = new Moto();
         System.out.println(a.compiteCon(v));
         //se soluciona asi pero no es correcto, ya que se debe programar contra la interfaz
 

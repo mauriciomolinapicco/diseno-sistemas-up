@@ -1,3 +1,3 @@
 interface Vehiculo {
-    public String compiteCon(Vehículo v);
+    String compiteCon(Vehiculo v);
 }

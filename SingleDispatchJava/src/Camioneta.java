@@ -16,5 +16,4 @@ public class Camioneta implements Vehiculo{
     public String compiteCon(Moto m) {
         return "la camioneta le corre a una moto";
     }
-
 }
